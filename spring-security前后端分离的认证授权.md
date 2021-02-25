@@ -12,6 +12,17 @@ categroies:
 
 我的毕设项目是类斗鱼软件开发，所以我为了给我的项目增加亮点，权限认证与授权肯定就不能用之前的过滤器来弄了，现在我决定使用spring security来接管我的项目。具体源码已经上传[Github](https://github.com/adroitwolf/spring-security-auth-example)
 
+## spring security认证流程
+
+1. 用户使用用户名和密码进行登录。
+
+2. Spring Security将获取到的用户名和密码封装成一个实现了Authentication接口的UsernamePasswordAuthenticationToken。
+
+3. 将上述产生的token对象传递给AuthenticationManager进行登录认证。
+
+4. AuthenticationManager认证成功后将会返回一个封装了用户权限等信息的Authentication对象。
+
+5. 通过调用SecurityContextHolder.getContext().setAuthentication(...)将AuthenticationManager返回的Authentication对象赋予给当前的SecurityContext。
 
 ## spring security的基本组件与流程
 
