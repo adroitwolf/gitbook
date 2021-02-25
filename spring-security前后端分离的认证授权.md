@@ -113,10 +113,9 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
 
 
 * 登陆失败：AuthenticationFailureHandler
-* 登陆成功：
-AuthenticationSuccessHandler
+* 登陆成功：AuthenticationSuccessHandler
 * 未登录：AuthenticationEntryPoint
-
+* 403没有权限: AccessDeniedHandler
 
 这三个是可以自定义状态返回结果，都需要自定义
 
