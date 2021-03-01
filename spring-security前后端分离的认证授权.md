@@ -10,6 +10,8 @@ categroies:
 
 # spring security前后端分离的认证授权
 
+> 强烈推荐兄弟们看这个帖子[Spring Security做JWT认证和授权](https://www.jianshu.com/p/d5ce890c67f7)
+
 我的毕设项目是类斗鱼软件开发，所以我为了给我的项目增加亮点，权限认证与授权肯定就不能用之前的过滤器来弄了，现在我决定使用spring security来接管我的项目。具体源码已经上传[Github](https://github.com/adroitwolf/spring-security-auth-example)
 
 ## spring security认证流程

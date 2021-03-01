@@ -33,6 +33,8 @@ git config --global user.email "YOUR EMAIL"
 网上都说下载完之后要配置名字邮箱，不过这两个和你的git账号没有关系，随便写就行。
 
 
+> 更新与3/1/2021,其实上面的那个邮箱还是有点用的，如果你这里配置的用户名和邮箱和你的git账号不一致的话，git push的时候你的Git账号里面是没有contribution的
+
 2. 生成 ssh 
 首先我们要有我们的ssh命令，在windows里面生成ssh的rsa密钥，具体命令如下：
 
