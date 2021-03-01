@@ -61,3 +61,31 @@ java编译命令: javac xxx.java
 值传递： 基本数据类型
 
 引用传递： String等各种对象，数组。
+
+## Java中Stream的使用
+
+### forEach
+
+这个我们肯定特别熟悉，遍历嘛。但是这里有一个注意的点，Collection包下面的集合都已经实现了forEach方法，也就是说，我们不需要将List对象先转换成stream对象，再用forEach方法
+
+### map
+map对象，他可以做一个对数据的处理，最后return出来的那个东西变成了一个steam流,举个例子
+
+```java
+
+List<User> users;
+ // 这里是个有好多数据的user列表，我们想吧里面的属性转出两个来怎么办？直接用map
+
+// 假设UserChange里面就一个id和name,其他的都删掉了
+ List<UserChange> lists = users.stream().map(item->{
+     xxxxx //去掉那些属性
+     return A;
+ }).collect(Collections.toList());
+
+```
+
+
+
+### filter
+
+这个是筛选出来符合filter里面条件的list，这里不举例了
