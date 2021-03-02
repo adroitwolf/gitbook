@@ -1,5 +1,5 @@
 ---
-title: 关于MyBatis自增主键那些事
+title: mybatis的走过的坑
 date: 2019-07-26 08:16:47
 categories:
 - mybatis
@@ -8,7 +8,18 @@ tags:
 - mybatis
 ---
 
-# 关于MyBatis自增主键那些事
+# mybatis的走过的坑
+
+## mybatis字段映射
+这里说到的字段映射指的是在没有任何配置的时候mybatis和tkmybatis是不能将数据库中的下划线转成java中驼峰命名的
+我们需要开启设置：
+```yaml
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+```
+
+## 关于MyBatis自增主键那些事
 
 有于当初利用SSM框架编写Mybatis的时候，mybatis的mapper文件等都是逆向生成的，所以用的时候非常方便，但是除了一点，就是插入数据的时候，主键是必须要写的，但是为了安全和方便(其实懒占主要因素)，否则就会爆出sql语句错误，最后解决办法如下:
 
