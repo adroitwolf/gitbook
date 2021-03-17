@@ -10,6 +10,7 @@ tags:
 # springboot Filter中无法注入Bean对象的解决办法
 
 ------------
+
 这次在项目中编写Token代码逻辑的时候，遇到了一个空指针问题，经过排查发现，Filter里面无法利用@Autowired。
 所以此次文章用来解决这一问题。
 
@@ -44,7 +45,7 @@ public class StartLinster implements ApplicationListener<ApplicationEvent> {
 
 这个是Filter启动的相应代码，可以看到，Listener启动顺序是最高的。
 ```java
-@Bean
+   @Bean
    public FilterRegistrationBean<AuthenticationFilter> initAuthenticationFilter(TokenService tokenService){
 
 
