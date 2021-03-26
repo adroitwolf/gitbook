@@ -1,13 +1,69 @@
 ---
-title: 关于vuex传参的一些事情
-date: 2019-07-28 10:34:08
+title: vue走过的那些坑
+date: 2021-03-25 11:27:02
+tags:
+- vue 
 categories:
 - vue
-tags:
-- vuex
-- 前端
 ---
-# 关于vuex传参的一些事情
+# vue走过的那些坑
+
+## vue修改数组
+
+当我们想修改原数组的某一个元素的值得时候，并不会使页面动态渲染。
+
+像是这样：
+
+```html
+<!-- 截取重要字段 -->
+<div v-for=(item ,index) in data>{{item}}</div>
+<button @click="change">修改<button>
+<script>
+data(){
+    return {
+        data:[1,2,2,3]
+    }
+}
+methods:{
+    change(){
+        this.data[2] = 5
+    }
+}
+</script>
+```
+
+array[index] = value，vue扫描不到数组的变化。
+下面提供了三个解决办法：
+1. **this.$set(arrat,index,value)** （个人不是很喜欢）
+2. array = newArray (之前用axios做过，但是现在还不是很确定是否可以用)
+3. array.splice(index,1,newValue) (个人推荐)
+
+
+## 关于vue中import的那些事
+
+
+
+再写vue的项目的时候，import导入其他组件和export的组合是最常用的了。
+
+那么就那我的项目为例子，我的项目导入了iview
+```javascript
+import { Button, Table, Message, Input } from 'iview'
+import 'iview/dist/styles/iview.css';
+
+```
+可以看到 这个组件是从根路径出发的，而且这个路径是从node_moudle这个文件夹内找的，如果不熟悉node_moudle，可以看我之前的vue入门博客。
+
+
+而且，我们可以看到，导入的组件是拿{}包裹这的，我们要知道，一般的组件像是vue官网上的那些，我们都是不拿{}包裹的。
+
+> 那么，这两种方式有区别么？
+
+
+答案是有的，{}导入的组件，需要用export {xxx,xxx,xxx}导出，而不需要{}的则需要用export default 'xxx'导出，而且 default 不可以导出多个，也就是说，我们可以因为某些逻辑将一些组件写在一个js文件中，然后用{}导出
+
+
+
+## 关于vuex传参的一些事情
 
 之前没有说vuex，这里说一下它的传参问题吧。对于我来说,vuex其实就可以看成一个静态的类，类里面分成四个模块
 
@@ -20,7 +76,7 @@ mutataions => set函数，设置变量的
 
 actions => 具体函数实现，比如利用axios之后将数据利用mutations提交的，也算是一个变相的set的函数吧
 
-## 数据取不到？ 一直undefined?
+### 数据取不到？ 一直undefined?
 本以为按照上面的做法去弄来着，但是当我在做完登陆功能，将token存到state里面，然后在axios封装的js文件将token取出来并且当作header的时候，数据一直是undefined,机智的我发现事情并不这么简单。吓得我马上开始了百度。
 
 
@@ -43,7 +99,7 @@ index -> 注册moudles和getters组件
 > 例如： avatarId: state => state.user.avatarId  和别的不一样的是，它在state后面又指明了user作用域
 
 
-## mutataions只接受一个参数
+### mutataions只接受一个参数
 
 这个问题其实困扰了我一会，因为如果你在actions里面写这样的话
 

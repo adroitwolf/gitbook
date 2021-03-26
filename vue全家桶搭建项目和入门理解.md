@@ -14,13 +14,14 @@ tags:
 
 ## vue脚手架
 其实这里没有网上说的这么复杂。完全可以这么理解，他们说的一些vue知识属于框架,类似于bootstrap那种的(其实并不是，不过你可以先这么理解)，需要你去理解一些标签啊，语法啊那种东西，然后这个脚手架是你搭建的一个**前端**项目，这里你可以理解成java后端的那种搭环境，比如spring啊什么的。
-## 初始化vue脚手架
+## 初始化vue脚手架(vue-cli 2.x)
 在保证自己电脑上安装了node.js前提下，我们需要安装vue环境和webpack.
 
 ```bash
 npm install vue
 npm install -g vue-cli #安装脚手架
 ```
+
 这里的webpack其实就是一个工具将你写的vue打包成html,js,css文件
 
 * 安装一个vue-cli项目
@@ -62,6 +63,20 @@ npm run build # 将你写的项目打包成html,一般都是在项目写完的�
 
 ```
 
+## 初始化vue脚本(@vue/cli 3.x)
+ 到我目前开始修改之前vue的博客的时候 vue cli 已经升级到4.x,但是因为4.x是基于Vue 3.x版本的，和我之前使用的Vue2.x有很大的区别。所以现在暂时先使用3.x。
+
+## 安装
+
+  ```bash
+    npm install @vue/cli 3.11.0
+    vue -V # 只要不是什么4.x就ok
+  ```
+### 创建项目
+
+  ```bash
+    vue create [name]
+  ```  
 ## 安装必要插件
 
 * 首先是路由和vuex,由于一开始创建项目的时候提示我们是否安装路由了，所以这里我不需要安装，直接安装vuex.
@@ -70,6 +85,7 @@ npm run build # 将你写的项目打包成html,一般都是在项目写完的�
 npm install vuex --save # save 是保存到本地的意思
 ```
 
+> 上面都是Vue Cli 2.x 必须安装的，VueCli3 在创建项目时可以自定义。
 
 ### vue路由器入门
 
