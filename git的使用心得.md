@@ -88,3 +88,24 @@ git rm -r --cached .
 ```
 
 
+## 多个git项目配置
+
+
+需求： 当我们在不同的项目中可能需要不同的git账户，或者需要不同的用户名和邮箱。
+
+解决方法：
+**方法一**
+打开项目的.git/config文件夹，增加下面的内容即可：
+```text
+[user]
+	name = xxx
+	email = xxx@xxx.com
+```
+**方法二**
+```bash
+git config user.name "YOUR NAME"
+
+git config  user.email "YOUR EMAIL"
+
+```
+> 注意 这个和之前全局的名字邮箱命令相比少了--global，也就是全局配置文件。这个是局部配置文件里面修改的。
