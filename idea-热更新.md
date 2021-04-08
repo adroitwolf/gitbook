@@ -4,7 +4,7 @@ date: 2021-04-01 14:46:16
 tags:
 - idea
 categories:
-- java
+- idea
 ---
 
 # idea热更新手段
