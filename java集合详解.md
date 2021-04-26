@@ -19,7 +19,7 @@ tags:
 
 Collection是在java.util里面
 
-![Java队列](https://s2.ax1x.com/2019/04/02/AywLb6.png)
+[![gS5az4.jpg](https://z3.ax1x.com/2021/04/26/gS5az4.jpg)](https://imgtu.com/i/gS5az4)
 
 > 集合里面是一定是存放对象的，不能存放基本数据类型，像是int,也是先转换成Integer然后在放在集合中。
 
@@ -29,7 +29,11 @@ Collection是在java.util里面
 
 * List是一个接口，而下面有ArrayList和LinkList两个实现类，关于Array和Linkd的区别，详见数据结构。
 *  List是有顺序的！
-* Vector(同步) 非常类似ArrayList，但是Vector是同步的
+* Vector(同步，即线程安全) 非常类似ArrayList，但是Vector是同步的,Vector并不推荐使用，原因：
+	+ vector是jdk 1.0的东西，非常老
+	+ vector底层使用数组来实现，只能从尾部进行操作，效率特别低
+	+ 当需要扩容的时候，会扩容一倍，而ArrayList只扩容50%，很容易导致空间分配不足的问题
+	+ 已有的替代品：copyAndWriteList(Jdk1.5的东西)
 
 ## Set
 
