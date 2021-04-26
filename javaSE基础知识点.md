@@ -170,7 +170,7 @@ public static void main(String[] args) {
 标记如上文所示，在外层循环上面写上A标记，在内循环里面直接Break 标记，起到goto语句的作用。
 
 
-### JAVA加载顺序
+## JAVA加载顺序
 
 父类静态代码块>> 子类静态代码块>> 父类代码块>> 父类构造函数>> 子类代码块>> 子类构造函数
 
@@ -213,3 +213,17 @@ public class MemoryLeak {
 }
 ```
 
+## String,StringBuilder,StringBuffer之间的区别
+
+String要注意他是一个final，也就是说不可继承的一个常量。
+
+String Builder线程不安全，但是效率高
+
+String buffer 线程安全，效率低
+
+## Vector,ArrayList之间的区别
+
+* 共同点： vector和arraylist创建一个固定大小的空间
+* 不同点： 
+
+Vector线程安全,arrayList不安全；每次容量满了之后,arrayList容量扩张50%,Vector扩张一倍。
