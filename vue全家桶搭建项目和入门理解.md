@@ -87,11 +87,6 @@ npm install vuex --save # save 是保存到本地的意思
 
 > 上面都是Vue Cli 2.x 必须安装的，VueCli3 在创建项目时可以自定义。
 
-## 安装错误处理
-
-有的时候我们创建vue项目会出现下面的Bug
-
-
 
 ### vue路由器入门
 

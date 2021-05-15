@@ -19,7 +19,7 @@ categories:
 首先我们要有我们的ssh命令，在windows里面生成ssh的rsa密钥，具体命令如下：
 
 ```bash
-ssh-keygon -t rsa -c ""
+ssh-keygen -t rsa -C ""
 # 引号里面是邮箱，外国人有毛病，什么玩意都要弄个邮箱，我就直接为null了
 
 ```
@@ -60,4 +60,3 @@ ssh -v git@192.168.3.99
 [![sKEaCj.png](https://s3.ax1x.com/2021/01/08/sKEaCj.png)](https://imgchr.com/i/sKEaCj)
 
 上面图片可以看出我们正在密钥校验，成功之后可直接登入服务器。
-
