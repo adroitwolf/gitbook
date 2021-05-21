@@ -77,6 +77,15 @@ ssh-keygon -t rsa -c ""
 
 后面我们发现git push 后面加了一个-u 这个是绑定一个默认远程仓库，以后还想要push这个仓库直接git push命令即可。
 
+##  分支
+
+删除分支:
+
+``bash
+gti remote remove xxx
+```
+
+
 ## .gitignore
 
 有的时候，我们并不想把一些ide之类的自动生成的文件push上去，所以我们可以编写一个忽略文件。
@@ -86,6 +95,11 @@ ssh-keygon -t rsa -c ""
 ```bash
 git rm -r --cached .
 ```
+
+## 冲突解决
+
+因为git pull命令等于 git fetch + git merge,所以在更新项目的时候指不定会有一些无法自动合并的文件，凡是pull出问题的，基本上是合并出错了。
+我们可以git diff 命令查看冲突的地方，然后解决掉。
 
 
 ## 多个git项目配置
