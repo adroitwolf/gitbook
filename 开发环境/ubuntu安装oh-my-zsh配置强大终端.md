@@ -45,6 +45,8 @@
         alias mv='mv -i'           # 覆盖前需确认
         alias vi='vim'             # 输入 vi 命令时使用 vim 编辑器
     ```
+## 配置主题
+    找到我们的配置文件搜索THEME，可以看到我们的设置，打开[主题市场](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)查看需要的主题并替换配置文件，之后更新一下即可。
 
 ## 特别鸣谢
    *  [minifullc的博客](https://minifullc.github.io/2018/03/14/oh-my-zsh-配置zsh-终端环境)
