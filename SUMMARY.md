@@ -107,3 +107,4 @@
     * [树莓派的一档子事儿](bian-cheng-sui-bi/shu-mei-pai-de-yi-dang-zi-shi-er.md)
     * [ps改变图片特定颜色](bian-cheng-sui-bi/ps-gai-bian-tu-pian-te-ding-yan-se.md)
 
+* [深度学习心得笔记](深度学习心得笔记.md)
