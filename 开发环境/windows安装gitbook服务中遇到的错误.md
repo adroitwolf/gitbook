@@ -8,8 +8,11 @@
 ```bash
     yarn global add gitbook-cli
 ```
+![](http://adroitwolf.gitee.io/pic/Snipaste_2022-01-10_16-43-01.png)
 
 提示node版本太低，这里我们使用nvm替换node版本
+
+
 ```bash
     nvm install 12
     nvm use 12.0.0

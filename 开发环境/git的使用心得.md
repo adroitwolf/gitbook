@@ -64,24 +64,32 @@ ssh-keygon -t rsa -c ""
 
 后面我们发现git push 后面加了一个-u 这个是绑定一个默认远程仓库，以后还想要push这个仓库直接git push命令即可。
 
-## 分支
-
-删除分支:
-
-\`\`bash gti remote remove xxx
+## 关联
+```bash 
+  git remote -v #查看当前所有关联
+  git remote remove <name> # 删除关联
 
 ````
 
 
-## .gitignore
+## 管理忽略文件
+
 
 有的时候，我们并不想把一些ide之类的自动生成的文件push上去，所以我们可以编写一个忽略文件。
+
+* 文件规则：
+  + <name>/ ：代表忽略当前文件下的所有文件
+  + !<name> ：代表还是追踪当前文件
 
 但是有的时候写上这个之后，发现并不起作用，所以我们需要清空git的缓存，并重新添加。
 
 ```bash
 git rm -r --cached .
 ````
+
+## 分支
+
+
 
 ## 冲突解决
 
