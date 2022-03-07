@@ -54,7 +54,7 @@
     * [Spring Cloud Alibaba项目构建](spring/Spring Cloud Alibaba项目构建.md)
 * [计算机基础](计算机基础/README.md)
     * [业务架构](计算机基础/业务架构/README.md)
-        * [在分布式架构下利用rabbitmq完成消息队列](计算机基础/业务架构/ssm+rabbitmq 分布式实例.md)
+        * [在分布式架构下利用rabbitmq完成消息队列](计算机基础/业务架构/ssm+rabbitmq分布式实例.md)
         * [网站业务架构的演变](计算机基础/业务架构/网站业务架构的演变.md)
     * [数据结构](计算机基础/数据结构/README.md)
         * [算法心得](计算机基础/数据结构/算法心得.md)
