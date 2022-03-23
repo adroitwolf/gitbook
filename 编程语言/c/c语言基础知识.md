@@ -27,9 +27,6 @@
     int i = (int)round(f);
 ```
 
-## 字符串操作
-
-[相关博客](https://cloud.tencent.com/developer/article/1826860)
 
 
 ## ASCII码
