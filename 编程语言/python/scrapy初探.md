@@ -145,7 +145,7 @@ IMAGES_STORE = 'img'
 def parse_item(self, response):
     print(response.url)
     item = AppItem()
-    item['image_urls'] =response.xpath(".//div[@id='post-content']/p/img/@src").extract()
+    item['image_urls'] =response.xpath(".//div[@id='post-content']/p/img/@src").getall()
     yield item
 ```
 
