@@ -1,20 +1,10 @@
----
-title: ps改变图片特定颜色
-date: 2019-05-18 12:20:53
-sumarry: 这次换博客主题的时候，想自定义一下博客logo，然后就出了这样一篇文章
-categories:
-- Photoshop
-tags:
-- Photoshop
----
-
 # ps改变图片特定颜色
 
 -----
 
 > 首先我们看一下我们的原图片，对没错是看门狗的图片
 
-![](https://s2.ax1x.com/2019/05/18/EOM6B9.jpg)
+![](/imgs/watch_dogs.jpg)
 
 ## 需求
 
@@ -30,14 +20,14 @@ tags:
 1. 打开ps后Ctrl+j 复制图层，将背景预览关掉
 2. 删除白边的话，这里不再叙述
 3. 由于我们这张图片色差明显，所以我们采用魔棒工具，将背景点选，然后Del删除，现在情况是这样的
-    ![](https://s2.ax1x.com/2019/05/18/EOMxgS.png)
+    ![](/imgs/watch_dogs2.png)
 4. 现在我们需要将图片上的黑色变成别的颜色作为一个temp,之后将白色主体部分变成黑色之后，可以将temp部分变成黑色或者其他颜色
 5. 选择菜单栏 --> 选择 --> 色彩范围 弹出色彩范围的框里面按下图操作
-    ![](https://s2.ax1x.com/2019/05/18/EOQiEn.png)
+    ![](/imgs/watch_dogs3.png)
     选择黑色部分，然后确定，之后图片会将那些图片框住
 6. 按ctrl+ u 弹出色相和饱和度框 勾选着色 选择合适的颜色后确认
-    ![](https://s2.ax1x.com/2019/05/18/EOQ14x.png)
+    ![](/imgs/watch_dogs4.png)
 7. 重复上面操作将白色主体部分变成黑色
-![](https://s2.ax1x.com/2019/05/18/EOQNKe.png)
+![](/imgs/watch_dogs5.png)
 8. 选择菜单 -> 图像 -> 图像大小 改变宽度和高度
 9. 导出图片 完工！

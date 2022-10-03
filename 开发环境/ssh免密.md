@@ -1,13 +1,3 @@
----
-title: ssh免密
-date: 2021-01-08T17:51:55.000Z
-tags:
-  - linux
-  - ssh
-categories:
-  - linux
----
-
 # ssh免密
 
 最近由于经常用linux，尤其是git这一方面，需要经常的push项目，而没有ssh的时候经常会需要登陆密码登陆，很麻烦。

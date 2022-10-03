@@ -1,14 +1,3 @@
----
-title: centos7安装fastDFS
-date: 2019-05-03T11:36:04.000Z
-categories:
-  - linux
-tags:
-  - 文件服务器
-  - 安装教程
-  - java
----
-
 # centos7安装fastDFS
 
 ## 环境准备
@@ -332,3 +321,4 @@ store_path(数字) #设置几个储存地址写几个 从0开始
 如果nginx无法访问 先检查防火墙 和 mod_fastdfs.conf文件tracker_server是否一致
 如果不是在/usr/local/src文件夹下安装 可能会编译出错
 ```
+
