@@ -1,13 +1,3 @@
----
-title: springboot2.0集成Quartz
-date: 2019-11-29T14:20:45.000Z
-categories:
-  - springboot
-tags:
-  - Quartz
-  - springboot
----
-
 # Spring Boot 2.0 集成Quartz
 
 这几天制作博客的文章点击量的任务,我们需要定时将redis的缓存存到数据库，所以定时任务调度是绝对少不了的了。

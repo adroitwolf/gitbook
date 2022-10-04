@@ -1,15 +1,3 @@
----
-title: centos7安装solr服务
-date: 2019-04-12T10:54:33.000Z
-categories:
-  - linux
-tags:
-  - 安装教程
-  - 搜索服务
-  - linux
-  - java
----
-
 # centos7 下安装solr服务
 
 ## 1. 安装java环境

@@ -1,15 +1,4 @@
----
-title: linux网络(一)
-date: 2020-03-06 12:02:18
-categories:
-- Linux
-tags:
-- linux
-- 计算机网络
----
-
-
-# linux网络 (一)
+# linux网络
 
 
 ## ISO/ OSI七层模型

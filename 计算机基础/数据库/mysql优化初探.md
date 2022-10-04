@@ -1,12 +1,3 @@
----
-title: mysql优化初探
-date: 2019-04-29T11:49:21.000Z
-categories:
-  - mysql
-tags:
-  - mysql优化
----
-
 # MySQL优化初探
 
 这里用的是Mysql5.6.34win64版本

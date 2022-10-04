@@ -1,14 +1,3 @@
----
-title: spring boot集成swagger2
-date: 2021-02-11T15:50:58.000Z
-tags:
-  - java
-  - spring
-  - spring boot
-categories:
-  - springboot
----
-
 # spring boot集成swagger2
 
 ## pom依赖
@@ -49,7 +38,7 @@ public class Swagger2Config {
         return new ApiInfoBuilder()
                 .title("ADROITWOLF博客API")
                 .description("多用户博客门户网站")
-                .termsOfServiceUrl("https://adroitwolf.github.io")
+                .termsOfServiceUrl("https://www.cnblogs.com/adroitwolf/")
                 .version("1.0")
                 .build();
     }

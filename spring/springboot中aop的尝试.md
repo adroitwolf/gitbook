@@ -1,12 +1,3 @@
----
-title: springboot中aop的尝试
-date: 2019-06-03T22:16:45.000Z
-categories:
-  - springboot
-tags:
-  - springboot
----
-
 # springboot中对AOP技术的了解和使用
 
 我们在项目中如果使用spring的框架的话，aop技术多多少少也接触过，所以打算在这里总结一下AOP的技术核心和常用方法。

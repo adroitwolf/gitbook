@@ -1,12 +1,3 @@
----
-title: nginx的那些事儿
-date: 2021-01-05T21:23:47.000Z
-tags:
-  - nginx
-categories:
-  - 运维
----
-
 # nginx的那些事儿
 
 ## 配置文件

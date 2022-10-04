@@ -1,13 +1,3 @@
----
-title: mybtatis添加数据返回主键
-date: 2019-08-15 11:31:33
-categories:
-- mybatis
-tags:
-- mybatis
-- springboot
----
-
 # mybtatis添加数据返回主键
 
 今天心血来潮，想用自己的项目来发布一些博客，可是当我提交成功后，想要访问的时候，突然告诉我找不到？！？
@@ -31,3 +21,25 @@ tags:
 ```
 
 然后你的主键就会返回给你这个Blog对象了，大功告成。
+
+
+## tkmybatis解决办法
+
+因为tkmybatis易于上手的特性，后面我的项目大多都是用tkmybatis来开发
+
+```java
+@Table(name = "user")
+@Data
+@ToString
+@Builder
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    private String name;
+
+}
+
+```
+只要在我自己的Bean上面添加@GeneratedValue的注释后，在我执行insert语句会自动将ID填充到id变量中

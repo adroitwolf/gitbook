@@ -1,15 +1,3 @@
----
-title: centos7 安装mariadb 并配置主从复制
-date: 2019-05-12T17:05:21.000Z
-summary: 在高并发下，一个数据库肯定是不得行的，那么主从复制是必要的！
-categories:
-  - linux
-tags:
-  - 安装教程
-  - linux
-  - mysql
----
-
 # centos7下安装mariadb
 
 ## 卸载已经存在的mariadb

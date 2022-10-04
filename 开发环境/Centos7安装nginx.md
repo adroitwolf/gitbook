@@ -1,13 +1,3 @@
----
-title: Centos7安装nginx
-date: 2021-01-05T11:03:01.000Z
-categories:
-  - linux
-tags:
-  - 安装教程
-  - nginx
----
-
 # Centos7安装nginx
 
 首先去官网下载想要的版本然后解压到linux上面

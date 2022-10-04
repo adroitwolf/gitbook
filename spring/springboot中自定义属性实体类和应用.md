@@ -1,12 +1,3 @@
----
-title: springboot中自定义属性实体类和应用
-date: 2019-06-30T10:37:52.000Z
-categories:
-  - springboot
-tags:
-  - springboot
----
-
 # springboot中自定义属性实体类和应用
 
 我们在当初学习SSM的时候学习过@Value这个属性，可以将配置文件中的属性加载到想要加载的类中，这个当然是一个可行的办法,但是如果属性有很多一直写@Value也是一件很麻烦的事情，现在我们可以用\*\*@ConfigurationProperties**和**@EnableConfigurationProperties\*\*这两个注解完成这个问题。

@@ -1,14 +1,3 @@
----
-title: Centos7安装java和maven
-date: 2019-11-18T20:57:23.000Z
-categories:
-  - linux
-tags:
-  - 安装教程
-  - java
-  - maven
----
-
 # Centos7安装java和maven
 
 ## java教程

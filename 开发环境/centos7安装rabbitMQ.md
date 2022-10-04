@@ -1,13 +1,3 @@
----
-title: centos7安装rabbitMQ
-date: 2019-04-07 11:17:44
-categories:
-- linux
-tags:
-- 安装教程
-- linux
----
-
 # centos安装RabbitMQ并配置环境
 
 之前我在网上搜罗了很多教程，但是大多都很繁琐，要么就是版本太老。

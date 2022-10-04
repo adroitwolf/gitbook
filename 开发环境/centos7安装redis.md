@@ -1,13 +1,3 @@
----
-title: centos7安装redis
-date: 2019-04-30 08:06:48
-categories:
-- linux
-tags:
-- 安装教程
-- redis
----
-
 # centos7安装redis
 
 我的安装包版本是redis5.6

@@ -1,12 +1,3 @@
----
-title: 关于springboot自动注入相关经验
-date: 2021-02-24T14:35:12.000Z
-tags:
-  - spring boot
-categroies:
-  - spring boot
----
-
 # 关于spring boot 注入相关经验
 
 ***

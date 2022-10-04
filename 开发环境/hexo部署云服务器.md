@@ -1,14 +1,3 @@
----
-title: hexo部署云服务器
-date: 2021-01-08T19:39:19.000Z
-tags:
-  - Hexo
-  - Linux
-  - Git
-categories:
-  - Hexo
----
-
 # hexo部署云服务器
 
 之前我的hexo是直接部署到git上面的，但是随着我的VPN到期，访问博客的速度是越来越慢，最后打算直接部署到linux服务器上。

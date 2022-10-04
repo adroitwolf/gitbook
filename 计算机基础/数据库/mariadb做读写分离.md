@@ -1,12 +1,3 @@
----
-title: mariadb做读写分离
-date: 2019-05-13T12:50:08.000Z
-categories:
-  - mysql
-tags:
-  - mysql优化
----
-
 # mariadb读写分离
 
 上一次文章我在centos7上安装了mariadb并开启了主从复制模式，这一篇打算利用mycat做读写分离

@@ -1,13 +1,3 @@
----
-title: springboot中的redis序列坑
-date: 2019-11-29T11:02:58.000Z
-categories:
-  - springboot
-tags:
-  - springboot
-  - redis
----
-
 # springboot中的redis序列坑
 
 当作到博客的点击排行功能的时候，心不甘情不愿的使用起了redis，但是redis存进来的key在我的redisDesktopManage中是这样的

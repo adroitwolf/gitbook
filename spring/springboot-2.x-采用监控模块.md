@@ -1,12 +1,3 @@
----
-title: springboot 2.x 采用监控模块
-date: 2019-11-05T19:51:35.000Z
-categories:
-  - springboot
-tags:
-  - springboot
----
-
 # springboot + actuator + prometheus + grafana 实现资源监控
 
 项目逐渐成型起来了，但是如果打包到服务器上之后，自己不可能时时刻刻关注服务器的状态，这时候舍友小A在一旁和我吐槽： 你不用想的很复杂，直接在网上找一个可以时时刻刻监控你自己服务器上的cpu啥的，一有事直接给你发邮件不就好了。

@@ -1,12 +1,3 @@
----
-title: mysql 利用触发器来实现check约束
-date: 2019-05-17 18:11:51
-categories:
-- mysql
-tags:
-- mysql
----
-
 # mysql 利用触发器来实现check约束
 
 ------

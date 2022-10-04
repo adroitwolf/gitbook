@@ -1,13 +1,3 @@
----
-title: Docker安装与初次使用
-date: 2019-11-08T19:09:59.000Z
-categories:
-  - linux
-tags:
-  - docker
-  - 安装教程
----
-
 # Docker的安装与初次使用
 
 这几天一直在搞爬虫，偶尔发现一篇帖子发现scrapy可以在Docker里面运行，太好了！正好让我们的spring程序和爬虫相辅相成一起运行，然后让自己的网站变得更好\[幻想ing....]

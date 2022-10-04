@@ -1,13 +1,3 @@
----
-title: spring security实现前后端分离的登陆与认证
-date: 2021-02-13T20:59:55.000Z
-tags:
-  - spring boot
-  - spring security
-categroies:
-  - spring security
----
-
 # spring security实现前后端分离的登陆与认证
 
 > 强烈推荐兄弟们看这个帖子[Spring Security做JWT认证和授权](https://www.jianshu.com/p/d5ce890c67f7)

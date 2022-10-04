@@ -1,14 +1,3 @@
----
-title: freemaker传输数据问题
-date: 2019-04-13 19:56:01
-categories:
-- ssm错误笔记
-tags:
-- 错误笔记
-- ssm
-- freemaker
----
-
 # FreeMaker传输数据问题
 
 -----

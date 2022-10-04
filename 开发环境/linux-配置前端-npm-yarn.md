@@ -1,12 +1,3 @@
----
-title: linux 配置前端 npm yarn 
-date: 2021-05-15 09:29:12
-categories:
-- Linux
-tags:
-- linux
----
-
 # linux 配置前端 npm yarn
 
 这几天更新了windows系统，安装一下wsl,试一下之前就想用的zsh，感觉还不错。之后就直接用Linux接管windows命令。

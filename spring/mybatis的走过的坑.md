@@ -1,13 +1,3 @@
----
-title: mybatis的走过的坑
-date: 2019-07-26 08:16:47
-categories:
-- mybatis
-tags:
-- mysql
-- mybatis
----
-
 # mybatis的走过的坑
 
 ## mybatis字段映射

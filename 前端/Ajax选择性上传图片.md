@@ -1,15 +1,4 @@
----
-title: ssm利用ajax上传图片和参数
-date: 2019-03-31T14:33:54.000Z
-categories:
-  - j2EE
-tags:
-  - 分布式
-  - 文件服务器
-  - nginx反向代理
----
-
-# Ajax选择性上传图片
+    # Ajax选择性上传图片
 
 * 技术选型:
 * bootstrap-fileinput 渲染上传框

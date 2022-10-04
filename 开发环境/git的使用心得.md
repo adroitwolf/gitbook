@@ -1,12 +1,3 @@
----
-title: git的使用心得
-date: 2021-02-08T15:48:26.000Z
-tags:
-  - git
-categories:
-  - git
----
-
 # git的使用心得
 
 由于考研失利，最近重新拾起了java项目。在学spring cloud的时候想到了单点登录，之后就想到了spring security OAuth 2。于是在大改我的blog项目之前，先要弄一个example源码试试看。但是之前总是用git的可视化界面，现在想装个B,用命令行编写的时候，突然发现自己的命令全忘了，于是学习了一会git命令。并且用这个博客记录下来。

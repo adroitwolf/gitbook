@@ -1,13 +1,3 @@
----
-title: Centos7安装nacos
-date: 2021-01-08 10:48:42
-categories:
-- linux
-tags:
-- 安装教程
-- linux
----
-
 # Centos7安装nacos
 打开nacos[官网首页](https://nacos.io/zh-cn/docs/quick-start.html)
 

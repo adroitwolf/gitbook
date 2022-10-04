@@ -1,13 +1,3 @@
----
-title: aop中获取请求消息和属性
-date: 2019-07-23 18:25:26
-categories:
-- springboot
-tags:
-- springboot
-- 前后端分离
----
-
 # aop中获取请求消息和属性
 
 ----

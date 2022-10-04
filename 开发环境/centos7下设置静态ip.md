@@ -1,13 +1,3 @@
----
-title: centos7下设置静态ip
-date: 2019-04-03 16:55:58
-categories:
-- linux
-tags:
-- linux
-- 安装教程
----
-
 # Linux设置固定IP
 
 > 一般我们想要拿本地的linux当做服务器用来测试，但是我们的ip设置规则时DHCP,即自动分配ip原则，所以为了方便，这里记录了如何固定ip的方法

@@ -1,14 +1,3 @@
----
-title: 关于vue传参问题
-date: 2019-07-27 06:54:30
-categories:
-- vue
-tags:
-- vue
-- 前后端分离
----
-
-
 # 关于vue传参问题
 
 

@@ -1,15 +1,3 @@
----
-title: docker运维优化
-date: 2019-11-27 16:25:24
-categories:
-- linux
-tags:
-- 运维
-- springboot
-- nginx
-- docker
----
-
 # docker运维优化
 
 ## springboot访问静态资源

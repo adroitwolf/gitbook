@@ -1,14 +1,3 @@
----
-title: 记录springboot利用pagehepler失效的原因
-date: 2019-07-28T21:01:15.000Z
-categroies:
-  - springboot
-tags:
-  - pagehepler
-  - Mybatis
-  - springboot
----
-
 # 记录springboot利用pagehepler失效的原因
 
 首先说一下记录这个博客的原因吧，之前用SSM的时候，也用过pageHepler，但是一切也OK,后来打算利用springboot搭建项目的时候在数据量小的时候(也就是数据还没有到分页的时候)也没又出现问题，但是当数据量慢慢增多的时候突然发现了一件事，就是每次利用pageHepler发过去的数据，数据其实传的是全部！！！！

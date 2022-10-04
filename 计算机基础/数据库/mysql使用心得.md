@@ -1,12 +1,3 @@
----
-title: mysql使用心得
-date: 2019-05-13T21:52:45.000Z
-categories:
-  - mysql
-tags:
-  - mysql
----
-
 # mysql使用心得
 
 * 对于那种datetime属性的默认值 可以写CURRENT\_TIMESTAMP，来填充当前时间。
