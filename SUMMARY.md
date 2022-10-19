@@ -76,6 +76,7 @@
 	* [kali进行arp嗅骗和攻击的一次记录](计算机基础/网络安全/kali进行arp嗅骗和攻击的一次记录.md) 
 * [编程语言](编程语言/README.md) 
 	* [python](编程语言/python/README.md) 
+    	* [range()函数](编程语言/python/range()函数的解释.md)
     	* [numpy](编程语言/python/numpy常用语句.md) 
     	* [scrapy初探](编程语言/python/scrapy初探.md) 
 	* [C](编程语言/c/README.md) 
