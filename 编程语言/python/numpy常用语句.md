@@ -23,3 +23,10 @@ np.random.normal
 ```
 
 [正态分布函数](https://blog.csdn.net/wzy628810/article/details/103807829)
+
+## shape
+之前一直对shape函数有隔阂，这里做一个总结
+
+
+* shape = () 代表里面就是一个数
+* shape = (2,)  => array([2,3])一个一维数组
