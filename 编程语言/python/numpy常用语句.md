@@ -30,3 +30,10 @@ np.random.normal
 
 * shape = () 代表里面就是一个数
 * shape = (2,)  => array([2,3])一个一维数组
+
+
+## 随机选取
+
+> np.random.sample()
+
+> np.random.choice(target,p)
