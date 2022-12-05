@@ -1,5 +1,8 @@
 # numpy 常用语句
 
+## 初始化数据
+[np.ones](https://blog.csdn.net/silent1cat/article/details/119883549)
+
 ## numpy用来升维
 [np.newaxis的作用](https://blog.csdn.net/THMAIL/article/details/121762644)
 
@@ -9,6 +12,9 @@
 ```python
     x_data = np.linspace(-1,1,300)[:,np.newaxis]
 ```
+
+## reshape()函数
+[reshape](https://zhuanlan.zhihu.com/p/385818806)
 
 
 ## 归一化
