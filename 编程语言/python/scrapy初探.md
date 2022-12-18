@@ -1,12 +1,3 @@
----
-title: scrapy初探
-date: 2019-11-05T12:52:15.000Z
-categories:
-  - 爬虫
-tags:
-  - 爬虫
----
-
 # scrapy初探
 
 ## scrapy 框架下爬取网站图片思想
