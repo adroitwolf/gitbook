@@ -1,6 +1,6 @@
 # mysql使用心得
 
-* 对于那种datetime属性的默认值 可以写CURRENT\_TIMESTAMP，来填充当前时间。
+* 对于那种datetime属性的默认值 可以写CURRENT_TIMESTAMP，来填充当前时间。
 
 ## 对于Join连接的经验
 

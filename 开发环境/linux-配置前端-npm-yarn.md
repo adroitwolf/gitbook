@@ -69,6 +69,15 @@ sudo ln -s /usr/local/-v12.18.1-linux-x64/bin/npm /usr/bin/npm
 问题解决。
 
 
+> 国内npm网速比较慢，所以推荐使用淘宝镜像的cnpm
+
+
+```bash
+npm install -g cnpm@7.1.0 --registry=https://registry.npm.taobao.org
+s
+
+```
+
 ## 安装yarn
 
 一定要用npm安装，不能用apt或者yum工具安装

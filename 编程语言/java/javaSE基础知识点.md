@@ -1,12 +1,3 @@
----
-title: javaSE基础知识点
-date: 2019-05-24T10:51:47.000Z
-categories:
-  - java
-tags:
-  - javaSE
----
-
 # javaSE基础知识点汇总
 
 ***
@@ -206,3 +197,7 @@ String buffer 线程安全，效率低
 * 不同点：
 
 Vector线程安全,arrayList不安全；每次容量满了之后,arrayList容量扩张50%,Vector扩张一倍。
+
+## 继承
+
+子类一旦override父类方法之后，即使向上转型成为父类，调用的仍然是子类的方法。
