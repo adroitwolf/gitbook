@@ -5,6 +5,11 @@
 ## 下载JRelbel
 
 在setting=> plugins路径下，搜索 JRelbel，安装
+> 上面的方法，在老版本的idea已经不适用，所以在使用老版本的IDE时，需要下载相应的插件版本
+* 卸载jrelbel，并删除~/路径下的jrel缓存文件
+* 去[官网](https://plugins.jetbrains.com/plugin/4441-jrebel-and-xrebel/versions)下载老版本的安装包
+* 将安装包解压到idea的plugin文件夹下
+
 
 ## 破解
 
