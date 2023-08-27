@@ -43,3 +43,8 @@ np.random.normal
 > np.random.sample()
 
 > np.random.choice(target,p)
+
+## ...号
+
+比如说，我创建一个a = np.arrange(60).reshape(3,4,5)的数组，我想选最后一维度的第2个元素，我可以使用 a[:,:,2]。
+但是当维度高的时候，可以使用a[...,2]
